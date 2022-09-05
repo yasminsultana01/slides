@@ -1,0 +1,28 @@
+.slide img{
+    display: block;
+    width: 100%;
+}
+#mySliderSection{
+    position: relative;
+}
+.arrows .leftArrow, .arrows .rightArrow {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(133, 125, 23);
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+     z-index: 99;
+     cursor: pointer;
+}
+.arrows .leftArrow{
+    left: 30%;
+}
+.arrows .rightArrow{
+    right: 30%;
+}
